@@ -1,9 +1,65 @@
-"Project Name: Activity Tracker with Agent-Based Monitoring"
+# Project Name: Activity Tracker with Agent-Based Monitoring
 
 *Overview:-
 This project is designed to distinguish between genuine user activity and bot activity using only a keyboard, monitor, and mouse. The system is designed to track user activities in real-time and manage the application lifecycle effectively.
 
-*Directory Structure:-
+## GUI OVERVIEW:-
+
+### Captcha Page:-
+![Screenshot (367)](https://github.com/user-attachments/assets/8eb7e409-fc8c-4dac-893a-9d1d53f2d084)
+
+#### Invalid Captcha:-
+![Screenshot (368)](https://github.com/user-attachments/assets/e006234b-8b47-460f-9d49-108baf1bfa29)
+
+
+
+### Main Gui Page:-
+
+![Screenshot (369)](https://github.com/user-attachments/assets/5d080605-1660-4fbd-8354-21253d9b35c2)
+
+
+
+
+### Internet Connectivity:-
+
+![Screenshot (371)](https://github.com/user-attachments/assets/b1c8b39d-b2d7-4347-980b-a81a9707b806)
+
+
+
+### Activity Tracking Preview:-
+
+![Screenshot (370)](https://github.com/user-attachments/assets/939ca764-294f-4623-80a1-f34aa958b180)
+
+### Battery Status:-
+
+![Screenshot (372)](https://github.com/user-attachments/assets/629fca2e-2e6a-4577-8930-4fdb65c546f3)
+
+### Downloading Screenshots:-
+
+![Screenshot (373)](https://github.com/user-attachments/assets/2990ceac-54e7-4274-a0c5-92f560796e71)
+
+
+## AWS Preview:-
+
+![Screenshot (357)](https://github.com/user-attachments/assets/97f4e3d3-0050-4915-b689-1f90e53f9192)
+
+![Screenshot (358)](https://github.com/user-attachments/assets/19f304c8-b520-49b0-ad13-c086c0d47ed2)
+
+![Screenshot (359)](https://github.com/user-attachments/assets/d0d84cfc-eff3-4289-9332-866710004c73)
+
+![screenshot20240829004939](https://github.com/user-attachments/assets/18f43bec-933c-4ae6-9bfc-c43c635dbf15)
+
+.Amazon S3:- For storing and managing uploaded screenshots and activity logs.
+
+.AWS Lambda:- For handling the backend processing of uploads, such as file storage or data transformation.
+
+.AWS IAM:- For managing permissions and roles required for secure interaction with S3 and Lambda.
+
+.Boto3:- AWS SDK for Python to interact with S3 for uploading files.
+
+
+
+##### *Directory Structure:-
 monitoring-agent
 ├── .env
 ├── .gitignore
@@ -11,6 +67,14 @@ monitoring-agent
 ├── agent.py
 ├── get-screenshots-from-s3.py
 └── README.md
+
+
+## Flow chart:-
+
+![Screenshot (374)](https://github.com/user-attachments/assets/49f19752-de39-480d-9aa8-75aab028a5d1)
+
+
+##Technologies Used:
 
 *File Descriptions
 *`env`:
@@ -31,7 +95,7 @@ This script is used to retrieve screenshots from an S3 bucket. It is likely part
 "Setup Instructions:"
 1. Clone the Repository
 bash-code:
->git clone https://github.com/your-username/your-repo-name.git
+>git clone https://github.com/Shailender94030/Vinove-Project--monitoring-python-agent.git
 
 >cd your-repo-name
 
